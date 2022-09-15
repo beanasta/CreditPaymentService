@@ -9,11 +9,9 @@ public class Main {
 
         double interestRate = 0.0999;
 
-        double monthlyPayment = service.calculate (loanAmount, loanDurationYears, interestRate);
+        double monthlyPayment = service.calculate(loanAmount, loanDurationYears, interestRate);
 
         System.out.println(monthlyPayment);
-
-
 
 
     }
